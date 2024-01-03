@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
     <nav id="desktop-Nav">
@@ -14,9 +15,23 @@
               <li><a href="#experience">Experience</a></li>
               <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
-
         </ul>
     </nav>
+ <nav id="hamburger-nav">
+    <div class="logo"> VERONICA MUASYA</div>
+<div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="Togglemenu()">
+    <span></span>
+    <span></span>
+    <span> </span>
+</div>
+<div class="menu-links"></div>
+<li><a href="#about">About</a></li>
+              <li><a href="#experience" onclick="Togglemenu()">Experience</a></li>
+              <li><a href="#projects" onclick="Togglemenu()">Projects</a></li>
+              <li><a href="#contact" onclick="Togglemenu()" >Contact</a></li>
+</div>
+ </nav>
 
     
 </body>
