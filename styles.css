@@ -240,7 +240,10 @@ section{
     .about-container,.about-details-container{
         display: flex;
     }
-    .ab
+    .about-pic{
+        border-radius: 2rem;
+    }
+    
 
 
 
