@@ -224,6 +224,23 @@ section{
 
     /* about section */
 
+    #about{
+        position: relative;
+    }
+    .about-container{
+        gap: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+
+    }
+    .about-details-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-container,.about-details-container{
+        display: flex;
+    }
+    .ab
 
 
 
@@ -236,4 +253,4 @@ section{
 
 
 
-    
+
