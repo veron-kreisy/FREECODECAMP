@@ -123,12 +123,16 @@ transition:all 0.3 ease-in-out;
 .hamburger-icon span:first-child{
     transform: none;
 } 
+
+
+
 section{
     padding-top:4vh ;
     height: 96vh;
+    margin:0 10rem;
     box-sizing: border-box;
     min-height:fit-content ;
-    margin:0 10rem;
+   
 }
 .section-container{
     display: flex;
